@@ -36,3 +36,6 @@ Italian default and English translation. Responsive, accessible static pages. Us
 
 ## Product Principles
 Use verifiable facts. Let work support positioning. Make exploration and contact easy. Keep source portable.
+
+## Brand Commitments
+The user identifies with yellow or orange, explicitly rejects green, and asks for a much bolder personal site. Use saturated orange and yellow with warm black and warm paper across the page, artwork, icons and social previews. Preserve verified facts, bilingual content and existing interactions.

@@ -193,21 +193,21 @@ if (context) {
     for (const contour of contours) {
       const alpha = Math.max(.16, Math.min(.9, .55 - contour.depth * .23));
       context.lineWidth = nodeAmount > .5 ? .6 : .85;
-      context.strokeStyle = 'rgba(23,58,44,' + alpha * (1 - nodeAmount * .65) + ')';
+      context.strokeStyle = 'rgba(35,28,23,' + alpha * (1 - nodeAmount * .65) + ')';
       context.beginPath();
       contour.points.forEach((point, i) => {
         if (i === 0) context.moveTo(point.x, point.y); else context.lineTo(point.x, point.y);
       });
       context.stroke();
       if (nodeAmount > .02 && contour.j % 3 === 0) {
-        context.fillStyle = 'rgba(23,58,44,' + alpha * nodeAmount + ')';
+        context.fillStyle = 'rgba(35,28,23,' + alpha * nodeAmount + ')';
         for (let k = 0; k < steps; k += 6) {
           const point = contour.points[k];
           context.beginPath(); context.arc(point.x, point.y, 1.35, 0, tau); context.fill();
         }
       }
       if (terrainAmount > .05 && contour.j % 5 === 0) {
-        context.strokeStyle = 'rgba(166,71,46,' + alpha * terrainAmount * .5 + ')';
+        context.strokeStyle = 'rgba(116,43,12,' + alpha * terrainAmount * .5 + ')';
         context.stroke();
       }
     }

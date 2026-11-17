@@ -10,7 +10,7 @@ if (new Set(ids).size !== ids.length) errors.push('Duplicate HTML IDs');
 for (const match of html.matchAll(/(?:href|src)="([^"#][^"]*)"/g)) {
   const target = match[1];
   if (/^(https?:|mailto:)/.test(target)) continue;
-  try { await access(resolve(target)); } catch { errors.push('Missing asset: ' + target); }
+  try { await access(resolve(target.split(/[?#]/)[0])); } catch { errors.push('Missing asset: ' + target); }
 }
 for (const match of html.matchAll(/href="#([^"]+)"/g)) {
   if (!ids.includes(match[1])) errors.push('Missing anchor: ' + match[1]);

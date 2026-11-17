@@ -10,12 +10,14 @@
     "source": "Original mathematical geometry rendered by app.js",
     "created": "2026-11-17",
     "purpose": "Static fallback when JavaScript is unavailable",
-    "data": "No measured environmental data"
+    "data": "No measured environmental data",
+    "revision": "Orange/yellow personal identity; clean warm-black canvas export."
   },
   "social-preview.png": {
     "source": "Screenshot of the website rendered in Chrome at 1200x630",
     "created": "2026-11-17",
-    "processing": "Social composition uses the same fonts, palette, text and generated sculpture as the website."
+    "processing": "Social composition uses the same fonts, palette, text and generated sculpture as the website.",
+    "revision": "Saturated orange hero, yellow highlight and warm-black type, 1200x630."
   },
   "fonts": {
     "Manrope": "https://github.com/google/fonts/tree/main/ofl/manrope",
