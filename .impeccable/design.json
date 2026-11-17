@@ -1,149 +1,164 @@
 ﻿{
   "schemaVersion": 2,
-  "generatedAt": "2026-11-17T16:13:32.275Z",
+  "generatedAt": "2026-11-17T16:29:14.796Z",
   "title": "Design System: Carmine Laudato",
   "extensions": {
     "colorMeta": {
       "paper": {
         "role": "neutral",
         "displayName": "Warm Paper",
-        "canonical": "#f4f3ec",
+        "canonical": "#fff9ee",
         "tonalRamp": [
-          "oklch(15% 0.007 95)",
-          "oklch(27% 0.015 95)",
-          "oklch(39% 0.021 95)",
-          "oklch(51% 0.025 95)",
-          "oklch(63% 0.025 95)",
-          "oklch(75% 0.021 95)",
-          "oklch(87% 0.014 95)",
-          "oklch(95% 0.006 95)"
+          "oklch(15% 0.011 80)",
+          "oklch(27% 0.021 80)",
+          "oklch(39% 0.030 80)",
+          "oklch(51% 0.035 80)",
+          "oklch(63% 0.035 80)",
+          "oklch(75% 0.030 80)",
+          "oklch(87% 0.019 80)",
+          "oklch(95% 0.009 80)"
         ]
       },
       "ink": {
-        "role": "primary",
-        "displayName": "Forest Ink",
-        "canonical": "#173a2c",
+        "role": "neutral",
+        "displayName": "Warm Black",
+        "canonical": "#231c17",
         "tonalRamp": [
-          "oklch(15% 0.027 158)",
-          "oklch(27% 0.054 158)",
-          "oklch(39% 0.076 158)",
-          "oklch(51% 0.090 158)",
-          "oklch(63% 0.090 158)",
-          "oklch(75% 0.076 158)",
-          "oklch(87% 0.050 158)",
-          "oklch(95% 0.022 158)"
+          "oklch(15% 0.007 55)",
+          "oklch(27% 0.015 55)",
+          "oklch(39% 0.021 55)",
+          "oklch(51% 0.025 55)",
+          "oklch(63% 0.025 55)",
+          "oklch(75% 0.021 55)",
+          "oklch(87% 0.014 55)",
+          "oklch(95% 0.006 55)"
+        ]
+      },
+      "orange": {
+        "role": "primary",
+        "displayName": "Saturated Orange",
+        "canonical": "#ff6b26",
+        "tonalRamp": [
+          "oklch(15% 0.057 42)",
+          "oklch(27% 0.114 42)",
+          "oklch(39% 0.162 42)",
+          "oklch(51% 0.190 42)",
+          "oklch(63% 0.190 42)",
+          "oklch(75% 0.162 42)",
+          "oklch(87% 0.105 42)",
+          "oklch(95% 0.048 42)"
+        ]
+      },
+      "yellow": {
+        "role": "primary",
+        "displayName": "Sunny Yellow",
+        "canonical": "#ffd43b",
+        "tonalRamp": [
+          "oklch(15% 0.048 94)",
+          "oklch(27% 0.096 94)",
+          "oklch(39% 0.136 94)",
+          "oklch(51% 0.160 94)",
+          "oklch(63% 0.160 94)",
+          "oklch(75% 0.136 94)",
+          "oklch(87% 0.088 94)",
+          "oklch(95% 0.040 94)"
         ]
       },
       "secondary": {
         "role": "neutral",
-        "displayName": "Muted Green",
-        "canonical": "#576658",
+        "displayName": "Warm Secondary",
+        "canonical": "#675445",
         "tonalRamp": [
-          "oklch(15% 0.012 145)",
-          "oklch(27% 0.024 145)",
-          "oklch(39% 0.034 145)",
-          "oklch(51% 0.040 145)",
-          "oklch(63% 0.040 145)",
-          "oklch(75% 0.034 145)",
-          "oklch(87% 0.022 145)",
-          "oklch(95% 0.010 145)"
+          "oklch(15% 0.012 65)",
+          "oklch(27% 0.024 65)",
+          "oklch(39% 0.034 65)",
+          "oklch(51% 0.040 65)",
+          "oklch(63% 0.040 65)",
+          "oklch(75% 0.034 65)",
+          "oklch(87% 0.022 65)",
+          "oklch(95% 0.010 65)"
         ]
       },
       "line": {
         "role": "neutral",
-        "displayName": "Soft Divider",
-        "canonical": "#d4d8cc",
+        "displayName": "Warm Divider",
+        "canonical": "#d8caba",
         "tonalRamp": [
-          "oklch(15% 0.007 120)",
-          "oklch(27% 0.015 120)",
-          "oklch(39% 0.021 120)",
-          "oklch(51% 0.025 120)",
-          "oklch(63% 0.025 120)",
-          "oklch(75% 0.021 120)",
-          "oklch(87% 0.014 120)",
-          "oklch(95% 0.006 120)"
+          "oklch(15% 0.009 75)",
+          "oklch(27% 0.018 75)",
+          "oklch(39% 0.025 75)",
+          "oklch(51% 0.030 75)",
+          "oklch(63% 0.030 75)",
+          "oklch(75% 0.025 75)",
+          "oklch(87% 0.017 75)",
+          "oklch(95% 0.007 75)"
         ]
       },
-      "lime": {
-        "role": "primary",
-        "displayName": "Chartreuse",
-        "canonical": "#dceaa7",
-        "tonalRamp": [
-          "oklch(15% 0.030 117)",
-          "oklch(27% 0.060 117)",
-          "oklch(39% 0.085 117)",
-          "oklch(51% 0.100 117)",
-          "oklch(63% 0.100 117)",
-          "oklch(75% 0.085 117)",
-          "oklch(87% 0.055 117)",
-          "oklch(95% 0.025 117)"
-        ]
-      },
-      "terracotta": {
+      "rust": {
         "role": "secondary",
-        "displayName": "Terracotta",
-        "canonical": "#a6472e",
+        "displayName": "Rust",
+        "canonical": "#b83e08",
         "tonalRamp": [
-          "oklch(15% 0.045 37)",
-          "oklch(27% 0.090 37)",
-          "oklch(39% 0.128 37)",
-          "oklch(51% 0.150 37)",
-          "oklch(63% 0.150 37)",
-          "oklch(75% 0.128 37)",
-          "oklch(87% 0.083 37)",
-          "oklch(95% 0.037 37)"
+          "oklch(15% 0.048 40)",
+          "oklch(27% 0.096 40)",
+          "oklch(39% 0.136 40)",
+          "oklch(51% 0.160 40)",
+          "oklch(63% 0.160 40)",
+          "oklch(75% 0.136 40)",
+          "oklch(87% 0.088 40)",
+          "oklch(95% 0.040 40)"
         ]
       },
       "peach": {
         "role": "secondary",
         "displayName": "Peach",
-        "canonical": "#f0e1d4",
+        "canonical": "#ffe1c9",
         "tonalRamp": [
-          "oklch(15% 0.013 65)",
-          "oklch(27% 0.027 65)",
-          "oklch(39% 0.038 65)",
-          "oklch(51% 0.045 65)",
-          "oklch(63% 0.045 65)",
-          "oklch(75% 0.038 65)",
-          "oklch(87% 0.025 65)",
-          "oklch(95% 0.011 65)"
+          "oklch(15% 0.018 62)",
+          "oklch(27% 0.036 62)",
+          "oklch(39% 0.051 62)",
+          "oklch(51% 0.060 62)",
+          "oklch(63% 0.060 62)",
+          "oklch(75% 0.051 62)",
+          "oklch(87% 0.033 62)",
+          "oklch(95% 0.015 62)"
         ]
       },
-      "sage": {
+      "warm-practice": {
         "role": "secondary",
-        "displayName": "Pale Sage",
-        "canonical": "#e3e8da",
+        "displayName": "Warm Practice",
+        "canonical": "#ffd7ba",
         "tonalRamp": [
-          "oklch(15% 0.011 120)",
-          "oklch(27% 0.021 120)",
-          "oklch(39% 0.030 120)",
-          "oklch(51% 0.035 120)",
-          "oklch(63% 0.035 120)",
-          "oklch(75% 0.030 120)",
-          "oklch(87% 0.019 120)",
-          "oklch(95% 0.009 120)"
+          "oklch(15% 0.026 55)",
+          "oklch(27% 0.051 55)",
+          "oklch(39% 0.072 55)",
+          "oklch(51% 0.085 55)",
+          "oklch(63% 0.085 55)",
+          "oklch(75% 0.072 55)",
+          "oklch(87% 0.047 55)",
+          "oklch(95% 0.021 55)"
         ]
       },
-      "inverse-secondary": {
+      "muted-on-ink": {
         "role": "neutral",
-        "displayName": "Light Sage Text",
-        "canonical": "#bdcbbf",
+        "displayName": "Muted on Ink",
+        "canonical": "#e5d7c5",
         "tonalRamp": [
-          "oklch(15% 0.009 145)",
-          "oklch(27% 0.018 145)",
-          "oklch(39% 0.025 145)",
-          "oklch(51% 0.030 145)",
-          "oklch(63% 0.030 145)",
-          "oklch(75% 0.025 145)",
-          "oklch(87% 0.017 145)",
-          "oklch(95% 0.007 145)"
+          "oklch(15% 0.012 75)",
+          "oklch(27% 0.024 75)",
+          "oklch(39% 0.034 75)",
+          "oklch(51% 0.040 75)",
+          "oklch(63% 0.040 75)",
+          "oklch(75% 0.034 75)",
+          "oklch(87% 0.022 75)",
+          "oklch(95% 0.010 75)"
         ]
       }
     },
     "typographyMeta": {
       "display": {
         "displayName": "Display",
-        "purpose": "Oversized introductory statement."
+        "purpose": "Heavy upright hero statement."
       },
       "headline": {
         "displayName": "Headline",
@@ -163,7 +178,11 @@
       },
       "expressive": {
         "displayName": "Expressive Italic",
-        "purpose": "Short emphasis; font style is italic."
+        "purpose": "Supporting research, about and portrait emphasis; italic only."
+      },
+      "display-en": {
+        "displayName": "English Display",
+        "purpose": "English hero at widths of 1051px and above."
       }
     },
     "shadows": [],
@@ -213,24 +232,24 @@
       "name": "Contact Button",
       "kind": "button",
       "refersTo": "button-contact",
-      "description": "Outlined header link to the contact section.",
+      "description": "Solid warm-black header action with yellow hover.",
       "html": "<a class=\"ds-contact\" href=\"#contatti\">Parliamone <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\"/></svg></a>",
-      "css": ".ds-contact{font-family:Manrope,sans-serif;display:inline-flex;align-items:center;gap:15px;padding:10px 17px;border:1px solid var(--line,#d4d8cc);border-radius:30px;color:var(--ink,#173a2c);font-size:12px;font-weight:600;text-decoration:none;transition:background .2s,border-color .2s}.ds-contact svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.5}.ds-contact:hover{background:var(--lime,#dceaa7);border-color:var(--lime,#dceaa7)}.ds-contact:focus-visible{outline:2px solid var(--terracotta,#a6472e);outline-offset:6px}"
+      "css": ".ds-contact{font-family:Manrope,sans-serif;display:inline-flex;align-items:center;gap:15px;padding:12px 19px;border:1px solid var(--ink,#231c17);border-radius:4px;color:var(--paper,#fff9ee);background:var(--ink,#231c17);font-size:12px;font-weight:600;text-decoration:none;transition:background .2s,border-color .2s}.ds-contact svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.5}.ds-contact:hover{background:var(--yellow,#ffd43b);color:var(--ink,#231c17);border-color:var(--yellow,#ffd43b)}.ds-contact:focus-visible{outline:2px solid var(--rust,#b83e08);outline-offset:6px}"
     },
     {
       "name": "Mode Selector",
       "kind": "button",
       "refersTo": "button-mode",
-      "description": "Three perspectives with a clearly selected state.",
+      "description": "Paper control capsule within the artwork; selected perspective uses yellow text.",
       "html": "<div class=\"ds-modes\" role=\"group\" aria-label=\"Explore form\"><button aria-pressed=\"false\">Dati</button><button aria-pressed=\"false\">Codice</button><button aria-pressed=\"true\">Materia</button></div>",
-      "css": ".ds-modes{display:inline-flex;gap:4px;padding:4px;border:1px solid var(--line,#d4d8cc);border-radius:30px}.ds-modes button{font-family:Manrope,sans-serif;font-size:11px;border:0;border-radius:24px;padding:8px 19px;min-width:72px;background:transparent;color:var(--ink,#173a2c);cursor:pointer;transition:background .3s,color .3s}.ds-modes button[aria-pressed=true]{background:var(--ink,#173a2c);color:var(--paper,#f4f3ec)}.ds-modes button:not([aria-pressed=true]):hover{background:var(--line,#d4d8cc)}.ds-modes button:focus-visible{outline:2px solid var(--terracotta,#a6472e);outline-offset:6px}"
+      "css": ".ds-modes{display:inline-flex;gap:4px;padding:5px;border:0;background:var(--paper,#fff9ee);border-radius:30px}.ds-modes button{font-family:Manrope,sans-serif;font-size:12px;font-weight:600;min-height:36px;border:0;border-radius:24px;padding:8px 19px;min-width:72px;background:transparent;color:var(--ink,#231c17);cursor:pointer;transition:background .3s,color .3s}.ds-modes button[aria-pressed=true]{background:var(--ink,#231c17);color:var(--yellow,#ffd43b)}.ds-modes button:not([aria-pressed=true]):hover{background:var(--yellow,#ffd43b)}.ds-modes button:focus-visible{outline:2px solid var(--rust,#b83e08);outline-offset:6px}"
     },
     {
       "name": "Navigation",
       "kind": "nav",
       "description": "Quiet masthead links with a fine animated underline.",
       "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#progetti\">Progetti</a><a href=\"#ricerca\">Ricerca</a><a href=\"#chi-sono\">Chi sono</a></nav>",
-      "css": ".ds-nav{font-family:Manrope,sans-serif;display:flex;flex-wrap:wrap;gap:32px;font-size:12px;font-weight:600;color:var(--ink,#173a2c)}.ds-nav a{position:relative;text-decoration:none;color:inherit}.ds-nav a:after{content:\"\";position:absolute;bottom:-7px;left:0;right:0;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .25s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-nav a:hover:after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid var(--terracotta,#a6472e);outline-offset:6px}"
+      "css": ".ds-nav{font-family:Manrope,sans-serif;display:flex;flex-wrap:wrap;gap:32px;font-size:13px;font-weight:600;color:var(--ink,#231c17)}.ds-nav a{position:relative;text-decoration:none;color:inherit}.ds-nav a:after{content:\"\";position:absolute;bottom:-7px;left:0;right:0;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .25s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-nav a:hover:after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid var(--rust,#b83e08);outline-offset:6px}"
     },
     {
       "name": "Technology Tags",
@@ -238,51 +257,67 @@
       "refersTo": "tag",
       "description": "Noninteractive technology labels inside the research panel.",
       "html": "<div class=\"ds-tags\"><span>Python</span><span>Geospatial</span><span>Machine Learning</span></div>",
-      "css": ".ds-tags{font-family:Manrope,sans-serif;display:flex;flex-wrap:wrap;gap:6px;background:var(--ink,#173a2c);color:var(--paper,#f4f3ec);padding:20px}.ds-tags span{border:1px solid #536b55;padding:4px 10px;font-size:11px;border-radius:20px}"
+      "css": ".ds-tags{font-family:Manrope,sans-serif;display:flex;flex-wrap:wrap;gap:6px;background:var(--ink,#231c17);color:var(--paper,#fff9ee);padding:20px}.ds-tags span{border:1px solid #776555;padding:4px 10px;font-size:11px;border-radius:20px}"
     },
     {
       "name": "Featured Research Panel",
       "kind": "card",
       "refersTo": "feature-panel",
-      "description": "Dark feature field with lime serif emphasis.",
+      "description": "Warm-black research field with yellow serif emphasis.",
       "html": "<article class=\"ds-feature\"><h3>Dove il dato manca,<br><em>inizia la ricerca.</em></h3><p>Integrare fonti diverse, confrontare modelli e ricostruire informazioni nello spazio.</p><a href=\"https://github.com/carminelau/asita2026-air-quality-reconstruction\">Esplora il progetto</a></article>",
-      "css": ".ds-feature{font-family:Manrope,sans-serif;background:var(--ink,#173a2c);color:var(--paper,#f4f3ec);border-radius:4px;padding:48px;max-width:540px}.ds-feature h3{margin:0;font-size:36px;font-weight:400;line-height:1.13;letter-spacing:-.035em}.ds-feature em{font-family:\"Instrument Serif\",Georgia,serif;font-weight:400;font-size:1.2em;color:var(--lime,#dceaa7)}.ds-feature p{font-size:14px;line-height:1.85;color:#bdcbbf;max-width:42ch;margin:25px 0 0}.ds-feature a{display:inline-flex;align-items:center;min-height:34px;margin-top:30px;color:inherit;font-size:11px;font-weight:600;text-decoration:none}.ds-feature a:hover{color:var(--lime,#dceaa7)}.ds-feature a:focus-visible{outline:2px solid var(--terracotta,#a6472e);outline-offset:6px}"
+      "css": ".ds-feature{font-family:Manrope,sans-serif;background:var(--ink,#231c17);color:var(--paper,#fff9ee);border-radius:0;padding:48px;max-width:540px}.ds-feature h3{margin:0;font-size:36px;font-weight:600;line-height:1.13;letter-spacing:-.035em}.ds-feature em{font-family:\"Instrument Serif\",Georgia,serif;font-weight:400;font-size:1.2em;color:var(--yellow,#ffd43b)}.ds-feature p{font-size:14px;line-height:1.85;color:#e5d7c5;max-width:42ch;margin:25px 0 0}.ds-feature a{display:inline-flex;align-items:center;min-height:34px;margin-top:30px;color:inherit;font-size:11px;font-weight:600;text-decoration:none}.ds-feature a:hover{color:var(--yellow,#ffd43b)}.ds-feature a:focus-visible{outline:2px solid var(--rust,#b83e08);outline-offset:6px}"
     },
     {
       "name": "Practice Panel",
       "kind": "card",
       "refersTo": "practice-adivo",
-      "description": "Warm supporting project field with generous spacing.",
+      "description": "Angular warm ADIVO panel with a bold project title.",
       "html": "<article class=\"ds-practice\"><strong>ADIVO</strong><h3>Dall’idea<br>alla materia.</h3><p>Manifattura additiva, prototipazione e sviluppo di sistemi connessi.</p><a href=\"https://adivo.it/\">Entra in ADIVO</a></article>",
-      "css": ".ds-practice{font-family:Manrope,sans-serif;display:flex;flex-direction:column;gap:28px;max-width:480px;min-height:300px;padding:32px 38px 25px;border-radius:4px;background:var(--peach,#f0e1d4);color:var(--ink,#173a2c)}.ds-practice strong{font-size:12px;font-weight:700}.ds-practice h3{margin:0;font-size:35px;line-height:1.13;font-weight:500;letter-spacing:-.035em}.ds-practice p{margin:0;font-size:14px;line-height:1.85;color:var(--secondary,#576658);max-width:42ch}.ds-practice a{align-self:flex-start;margin-top:auto;min-height:44px;display:inline-flex;align-items:center;color:inherit;font-size:12px;font-weight:700;text-decoration:none}.ds-practice a:hover{text-decoration:underline}.ds-practice a:focus-visible{outline:2px solid var(--terracotta,#a6472e);outline-offset:6px}"
+      "css": ".ds-practice{font-family:Manrope,sans-serif;display:flex;flex-direction:column;gap:28px;max-width:480px;min-height:375px;padding:34px 38px 28px;border-radius:0;background:#ffd7ba;color:var(--ink,#231c17)}.ds-practice strong{font-size:12px;font-weight:700}.ds-practice h3{margin:0;font-size:39px;line-height:1.13;font-weight:700;letter-spacing:-.04em}.ds-practice p{margin:0;font-size:14px;line-height:1.85;color:#59402b;max-width:44ch}.ds-practice a{align-self:flex-start;margin-top:auto;min-height:44px;display:inline-flex;align-items:center;color:inherit;font-size:12px;font-weight:700;text-decoration:none}.ds-practice a:hover{text-decoration:underline}.ds-practice a:focus-visible{outline:2px solid var(--rust,#b83e08);outline-offset:6px}"
     },
     {
       "name": "Publication Row",
       "kind": "custom",
       "description": "Year, wrapping scientific title and directional SVG.",
       "html": "<a class=\"ds-publication\" href=\"https://doi.org/10.3390/app14188542\"><span>2024</span><div><h3>Influence of Atmospheric Pollutants and Weather Conditions on Agricultural Productivity in Italy</h3><p>Applied Sciences · 14(18), 8542</p></div><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\"/></svg></a>",
-      "css": ".ds-publication{font-family:Manrope,sans-serif;display:grid;grid-template-columns:50px 1fr 20px;gap:22px;padding:30px 0;border-block:1px solid var(--line,#d4d8cc);color:var(--ink,#173a2c);text-decoration:none;transition:background .2s}.ds-publication>span{font-size:11px;font-variant-numeric:tabular-nums;line-height:2}.ds-publication h3{margin:0;font-size:17px;font-weight:500;line-height:1.55;letter-spacing:-.02em;max-width:67ch}.ds-publication p{margin:10px 0 0;font-size:11px;color:var(--secondary,#576658)}.ds-publication svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;margin-top:3px}.ds-publication:hover{background:#e9ecdf}.ds-publication:focus-visible{outline:2px solid var(--terracotta,#a6472e);outline-offset:6px}"
+      "css": ".ds-publication{font-family:Manrope,sans-serif;display:grid;grid-template-columns:50px 1fr 20px;gap:22px;padding:30px 0;border-block:1px solid var(--line,#d8caba);color:var(--ink,#231c17);text-decoration:none;transition:background .2s}.ds-publication>span{font-size:11px;font-variant-numeric:tabular-nums;line-height:2;color:var(--rust,#b83e08);font-weight:700}.ds-publication h3{margin:0;font-size:17px;font-weight:600;line-height:1.55;letter-spacing:-.02em;max-width:67ch}.ds-publication p{margin:10px 0 0;font-size:11px;color:var(--secondary,#675445)}.ds-publication svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;margin-top:3px}.ds-publication:hover{background:#fff0ce}.ds-publication:focus-visible{outline:2px solid var(--rust,#b83e08);outline-offset:6px}"
+    },
+    {
+      "name": "Hero Highlight",
+      "kind": "custom",
+      "refersTo": "hero-highlight",
+      "description": "Rotated yellow material highlight on a saturated orange field.",
+      "html": "<div class=\"ds-hero\"><h1>Connetto dati,<br>codice e <em>materia.</em></h1></div>",
+      "css": ".ds-hero{padding:35px;background:var(--orange,#ff6b26);color:var(--ink,#231c17)}.ds-hero h1{font-family:Manrope,sans-serif;font-weight:800;font-size:clamp(43px,6.55vw,94px);line-height:1.04;letter-spacing:-.04em;margin:0}.ds-hero em{font:inherit;font-size:1.01em;display:table;background:var(--yellow,#ffd43b);padding:0 .13em .08em;margin:13px 0 0 -.04em;transform:rotate(-3deg)}"
+    },
+    {
+      "name": "Contact Field",
+      "kind": "custom",
+      "refersTo": "contact-panel",
+      "description": "Yellow conversation field with a heavy upright statement and circular arrow.",
+      "html": "<section class=\"ds-contact-field\"><a class=\"ds-contact-main\" href=\"mailto:claudato@unisa.it\"><h2>Facciamo<br>connessioni.</h2><span><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\"/></svg></span></a></section>",
+      "css": ".ds-contact-field{padding:46px 48px 35px;background:var(--yellow,#ffd43b);color:var(--ink,#231c17)}.ds-contact-main{display:flex;align-items:center;justify-content:space-between;gap:30px;color:inherit;text-decoration:none}.ds-contact-main h2{font-family:Manrope,sans-serif;font-size:clamp(40px,7vw,96px);font-weight:800;line-height:1.05;letter-spacing:-.04em;margin:0}.ds-contact-main span{display:grid;place-items:center;flex-shrink:0;width:90px;height:90px;border:1px solid var(--ink,#231c17);border-radius:50%;transition:background .3s,color .3s,transform .4s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-contact-main svg{width:45px;height:45px;fill:none;stroke:currentColor;stroke-width:1}.ds-contact-main:hover span{background:var(--ink,#231c17);color:var(--yellow,#ffd43b);transform:rotate(45deg)}.ds-contact-main:focus-visible{outline:2px solid var(--rust,#b83e08);outline-offset:6px}@media(max-width:380px){.ds-contact-main{display:block}.ds-contact-main span{margin-top:20px;width:44px;height:44px}.ds-contact-main h2{font-size:32px}}"
     }
   ],
   "narrative": {
-    "northStar": "A scientific atlas of connections",
-    "overview": "Warm paper and forest ink make technical work approachable. Large typography, generous empty space and contour geometry connect research, software and physical making.\n\nThe system is editorial and precise. A restrained italic voice adds personality while Manrope keeps navigation, reading and interaction clear.",
+    "northStar": "A bold scientific atlas of connections",
+    "overview": "Saturated orange, sunny yellow and warm black make the scientific atlas direct and unmistakable. Heavy headlines and mathematical contours connect data, software and physical making.\n\nWarm paper supports longer reading. Angular panels, fine rules and generous space organize verified work. Supporting serif italics retain a human editorial voice.",
     "keyCharacteristics": [
-      "Warm paper with forest ink and selective mineral accents.",
-      "Large asymmetric compositions balanced by hairline rules.",
-      "Manrope structure with Instrument Serif italic emphasis.",
-      "Flat tonal panels and readable, compact controls.",
+      "Saturated orange and yellow with warm black and paper.",
+      "Heavy Manrope headlines and selective serif italic emphasis.",
+      "Angular content panels, fine rules and compact rounded controls.",
+      "Asymmetric desktop compositions that stack cleanly on mobile.",
       "Mathematical imagery with user-controlled motion."
     ],
     "rules": [
       {
-        "name": "The Ground and Contrast Rule",
-        "body": "Keep paper and ink as the structural pair; use lime and terracotta to mark emphasis and interaction.",
+        "name": "The Warm Identity Rule",
+        "body": "Build the identity from orange, yellow, warm black and paper; keep supporting tones within the same warm family.",
         "section": "colors"
       },
       {
-        "name": "The Two Voices Rule",
-        "body": "Use Manrope for structure and reading; use Instrument Serif italic for short, meaningful emphasis.",
+        "name": "The Strong Voice Rule",
+        "body": "Keep the hero and contact statement in heavy upright Manrope; reserve serif italics for supporting editorial moments.",
         "section": "typography"
       },
       {
@@ -297,15 +332,17 @@
       }
     ],
     "dos": [
-      "Do use paper and ink to organize the page before adding accents.",
+      "Do use saturated orange and yellow as defining identity fields.",
+      "Do check hero text and artwork separation in Italian and English.",
       "Do keep long research titles readable and allow them to wrap.",
-      "Do use local fonts and inline SVG icons.",
-      "Do preserve visible focus and user control of motion."
+      "Do preserve local fonts, inline SVG icons, visible focus and motion controls."
     ],
     "donts": [
-      "Don't introduce shadows into the existing flat panel vocabulary.",
-      "Don't use Instrument Serif for navigation or long body copy.",
+      "Don't replace the warm identity with unrelated hues.",
+      "Don't introduce shadows into the flat panel vocabulary.",
+      "Don't use serif italics for the hero, contact statement, navigation or long body copy.",
       "Don't present illustrative diagrams as live measurements."
     ]
   }
 }
+
