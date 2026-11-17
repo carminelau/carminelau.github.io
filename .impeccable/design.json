@@ -1,0 +1,311 @@
+﻿{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-17T16:13:32.275Z",
+  "title": "Design System: Carmine Laudato",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "#f4f3ec",
+        "tonalRamp": [
+          "oklch(15% 0.007 95)",
+          "oklch(27% 0.015 95)",
+          "oklch(39% 0.021 95)",
+          "oklch(51% 0.025 95)",
+          "oklch(63% 0.025 95)",
+          "oklch(75% 0.021 95)",
+          "oklch(87% 0.014 95)",
+          "oklch(95% 0.006 95)"
+        ]
+      },
+      "ink": {
+        "role": "primary",
+        "displayName": "Forest Ink",
+        "canonical": "#173a2c",
+        "tonalRamp": [
+          "oklch(15% 0.027 158)",
+          "oklch(27% 0.054 158)",
+          "oklch(39% 0.076 158)",
+          "oklch(51% 0.090 158)",
+          "oklch(63% 0.090 158)",
+          "oklch(75% 0.076 158)",
+          "oklch(87% 0.050 158)",
+          "oklch(95% 0.022 158)"
+        ]
+      },
+      "secondary": {
+        "role": "neutral",
+        "displayName": "Muted Green",
+        "canonical": "#576658",
+        "tonalRamp": [
+          "oklch(15% 0.012 145)",
+          "oklch(27% 0.024 145)",
+          "oklch(39% 0.034 145)",
+          "oklch(51% 0.040 145)",
+          "oklch(63% 0.040 145)",
+          "oklch(75% 0.034 145)",
+          "oklch(87% 0.022 145)",
+          "oklch(95% 0.010 145)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Soft Divider",
+        "canonical": "#d4d8cc",
+        "tonalRamp": [
+          "oklch(15% 0.007 120)",
+          "oklch(27% 0.015 120)",
+          "oklch(39% 0.021 120)",
+          "oklch(51% 0.025 120)",
+          "oklch(63% 0.025 120)",
+          "oklch(75% 0.021 120)",
+          "oklch(87% 0.014 120)",
+          "oklch(95% 0.006 120)"
+        ]
+      },
+      "lime": {
+        "role": "primary",
+        "displayName": "Chartreuse",
+        "canonical": "#dceaa7",
+        "tonalRamp": [
+          "oklch(15% 0.030 117)",
+          "oklch(27% 0.060 117)",
+          "oklch(39% 0.085 117)",
+          "oklch(51% 0.100 117)",
+          "oklch(63% 0.100 117)",
+          "oklch(75% 0.085 117)",
+          "oklch(87% 0.055 117)",
+          "oklch(95% 0.025 117)"
+        ]
+      },
+      "terracotta": {
+        "role": "secondary",
+        "displayName": "Terracotta",
+        "canonical": "#a6472e",
+        "tonalRamp": [
+          "oklch(15% 0.045 37)",
+          "oklch(27% 0.090 37)",
+          "oklch(39% 0.128 37)",
+          "oklch(51% 0.150 37)",
+          "oklch(63% 0.150 37)",
+          "oklch(75% 0.128 37)",
+          "oklch(87% 0.083 37)",
+          "oklch(95% 0.037 37)"
+        ]
+      },
+      "peach": {
+        "role": "secondary",
+        "displayName": "Peach",
+        "canonical": "#f0e1d4",
+        "tonalRamp": [
+          "oklch(15% 0.013 65)",
+          "oklch(27% 0.027 65)",
+          "oklch(39% 0.038 65)",
+          "oklch(51% 0.045 65)",
+          "oklch(63% 0.045 65)",
+          "oklch(75% 0.038 65)",
+          "oklch(87% 0.025 65)",
+          "oklch(95% 0.011 65)"
+        ]
+      },
+      "sage": {
+        "role": "secondary",
+        "displayName": "Pale Sage",
+        "canonical": "#e3e8da",
+        "tonalRamp": [
+          "oklch(15% 0.011 120)",
+          "oklch(27% 0.021 120)",
+          "oklch(39% 0.030 120)",
+          "oklch(51% 0.035 120)",
+          "oklch(63% 0.035 120)",
+          "oklch(75% 0.030 120)",
+          "oklch(87% 0.019 120)",
+          "oklch(95% 0.009 120)"
+        ]
+      },
+      "inverse-secondary": {
+        "role": "neutral",
+        "displayName": "Light Sage Text",
+        "canonical": "#bdcbbf",
+        "tonalRamp": [
+          "oklch(15% 0.009 145)",
+          "oklch(27% 0.018 145)",
+          "oklch(39% 0.025 145)",
+          "oklch(51% 0.030 145)",
+          "oklch(63% 0.030 145)",
+          "oklch(75% 0.025 145)",
+          "oklch(87% 0.017 145)",
+          "oklch(95% 0.007 145)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Oversized introductory statement."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Readable scientific publication titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "General reading text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Metadata and compact controls."
+      },
+      "expressive": {
+        "displayName": "Expressive Italic",
+        "purpose": "Short emphasis; font style is italic."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Authored entrance and directional transitions."
+      },
+      {
+        "name": "heading-entrance",
+        "value": "0.9s",
+        "purpose": "Initial heading clip reveal."
+      },
+      {
+        "name": "sculpture-entrance",
+        "value": "1.4s",
+        "purpose": "Initial circular sculpture reveal."
+      },
+      {
+        "name": "interaction",
+        "value": "0.2s–0.4s",
+        "purpose": "Tone and arrow feedback. Reduced-motion preference disables CSS animation and transitions."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "380px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "tablet",
+        "value": "1050px"
+      },
+      {
+        "name": "wide",
+        "value": "1600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Contact Button",
+      "kind": "button",
+      "refersTo": "button-contact",
+      "description": "Outlined header link to the contact section.",
+      "html": "<a class=\"ds-contact\" href=\"#contatti\">Parliamone <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\"/></svg></a>",
+      "css": ".ds-contact{font-family:Manrope,sans-serif;display:inline-flex;align-items:center;gap:15px;padding:10px 17px;border:1px solid var(--line,#d4d8cc);border-radius:30px;color:var(--ink,#173a2c);font-size:12px;font-weight:600;text-decoration:none;transition:background .2s,border-color .2s}.ds-contact svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.5}.ds-contact:hover{background:var(--lime,#dceaa7);border-color:var(--lime,#dceaa7)}.ds-contact:focus-visible{outline:2px solid var(--terracotta,#a6472e);outline-offset:6px}"
+    },
+    {
+      "name": "Mode Selector",
+      "kind": "button",
+      "refersTo": "button-mode",
+      "description": "Three perspectives with a clearly selected state.",
+      "html": "<div class=\"ds-modes\" role=\"group\" aria-label=\"Explore form\"><button aria-pressed=\"false\">Dati</button><button aria-pressed=\"false\">Codice</button><button aria-pressed=\"true\">Materia</button></div>",
+      "css": ".ds-modes{display:inline-flex;gap:4px;padding:4px;border:1px solid var(--line,#d4d8cc);border-radius:30px}.ds-modes button{font-family:Manrope,sans-serif;font-size:11px;border:0;border-radius:24px;padding:8px 19px;min-width:72px;background:transparent;color:var(--ink,#173a2c);cursor:pointer;transition:background .3s,color .3s}.ds-modes button[aria-pressed=true]{background:var(--ink,#173a2c);color:var(--paper,#f4f3ec)}.ds-modes button:not([aria-pressed=true]):hover{background:var(--line,#d4d8cc)}.ds-modes button:focus-visible{outline:2px solid var(--terracotta,#a6472e);outline-offset:6px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Quiet masthead links with a fine animated underline.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#progetti\">Progetti</a><a href=\"#ricerca\">Ricerca</a><a href=\"#chi-sono\">Chi sono</a></nav>",
+      "css": ".ds-nav{font-family:Manrope,sans-serif;display:flex;flex-wrap:wrap;gap:32px;font-size:12px;font-weight:600;color:var(--ink,#173a2c)}.ds-nav a{position:relative;text-decoration:none;color:inherit}.ds-nav a:after{content:\"\";position:absolute;bottom:-7px;left:0;right:0;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .25s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-nav a:hover:after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid var(--terracotta,#a6472e);outline-offset:6px}"
+    },
+    {
+      "name": "Technology Tags",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Noninteractive technology labels inside the research panel.",
+      "html": "<div class=\"ds-tags\"><span>Python</span><span>Geospatial</span><span>Machine Learning</span></div>",
+      "css": ".ds-tags{font-family:Manrope,sans-serif;display:flex;flex-wrap:wrap;gap:6px;background:var(--ink,#173a2c);color:var(--paper,#f4f3ec);padding:20px}.ds-tags span{border:1px solid #536b55;padding:4px 10px;font-size:11px;border-radius:20px}"
+    },
+    {
+      "name": "Featured Research Panel",
+      "kind": "card",
+      "refersTo": "feature-panel",
+      "description": "Dark feature field with lime serif emphasis.",
+      "html": "<article class=\"ds-feature\"><h3>Dove il dato manca,<br><em>inizia la ricerca.</em></h3><p>Integrare fonti diverse, confrontare modelli e ricostruire informazioni nello spazio.</p><a href=\"https://github.com/carminelau/asita2026-air-quality-reconstruction\">Esplora il progetto</a></article>",
+      "css": ".ds-feature{font-family:Manrope,sans-serif;background:var(--ink,#173a2c);color:var(--paper,#f4f3ec);border-radius:4px;padding:48px;max-width:540px}.ds-feature h3{margin:0;font-size:36px;font-weight:400;line-height:1.13;letter-spacing:-.035em}.ds-feature em{font-family:\"Instrument Serif\",Georgia,serif;font-weight:400;font-size:1.2em;color:var(--lime,#dceaa7)}.ds-feature p{font-size:14px;line-height:1.85;color:#bdcbbf;max-width:42ch;margin:25px 0 0}.ds-feature a{display:inline-flex;align-items:center;min-height:34px;margin-top:30px;color:inherit;font-size:11px;font-weight:600;text-decoration:none}.ds-feature a:hover{color:var(--lime,#dceaa7)}.ds-feature a:focus-visible{outline:2px solid var(--terracotta,#a6472e);outline-offset:6px}"
+    },
+    {
+      "name": "Practice Panel",
+      "kind": "card",
+      "refersTo": "practice-adivo",
+      "description": "Warm supporting project field with generous spacing.",
+      "html": "<article class=\"ds-practice\"><strong>ADIVO</strong><h3>Dall’idea<br>alla materia.</h3><p>Manifattura additiva, prototipazione e sviluppo di sistemi connessi.</p><a href=\"https://adivo.it/\">Entra in ADIVO</a></article>",
+      "css": ".ds-practice{font-family:Manrope,sans-serif;display:flex;flex-direction:column;gap:28px;max-width:480px;min-height:300px;padding:32px 38px 25px;border-radius:4px;background:var(--peach,#f0e1d4);color:var(--ink,#173a2c)}.ds-practice strong{font-size:12px;font-weight:700}.ds-practice h3{margin:0;font-size:35px;line-height:1.13;font-weight:500;letter-spacing:-.035em}.ds-practice p{margin:0;font-size:14px;line-height:1.85;color:var(--secondary,#576658);max-width:42ch}.ds-practice a{align-self:flex-start;margin-top:auto;min-height:44px;display:inline-flex;align-items:center;color:inherit;font-size:12px;font-weight:700;text-decoration:none}.ds-practice a:hover{text-decoration:underline}.ds-practice a:focus-visible{outline:2px solid var(--terracotta,#a6472e);outline-offset:6px}"
+    },
+    {
+      "name": "Publication Row",
+      "kind": "custom",
+      "description": "Year, wrapping scientific title and directional SVG.",
+      "html": "<a class=\"ds-publication\" href=\"https://doi.org/10.3390/app14188542\"><span>2024</span><div><h3>Influence of Atmospheric Pollutants and Weather Conditions on Agricultural Productivity in Italy</h3><p>Applied Sciences · 14(18), 8542</p></div><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 18 18 6M6 6h12v12\"/></svg></a>",
+      "css": ".ds-publication{font-family:Manrope,sans-serif;display:grid;grid-template-columns:50px 1fr 20px;gap:22px;padding:30px 0;border-block:1px solid var(--line,#d4d8cc);color:var(--ink,#173a2c);text-decoration:none;transition:background .2s}.ds-publication>span{font-size:11px;font-variant-numeric:tabular-nums;line-height:2}.ds-publication h3{margin:0;font-size:17px;font-weight:500;line-height:1.55;letter-spacing:-.02em;max-width:67ch}.ds-publication p{margin:10px 0 0;font-size:11px;color:var(--secondary,#576658)}.ds-publication svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;margin-top:3px}.ds-publication:hover{background:#e9ecdf}.ds-publication:focus-visible{outline:2px solid var(--terracotta,#a6472e);outline-offset:6px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A scientific atlas of connections",
+    "overview": "Warm paper and forest ink make technical work approachable. Large typography, generous empty space and contour geometry connect research, software and physical making.\n\nThe system is editorial and precise. A restrained italic voice adds personality while Manrope keeps navigation, reading and interaction clear.",
+    "keyCharacteristics": [
+      "Warm paper with forest ink and selective mineral accents.",
+      "Large asymmetric compositions balanced by hairline rules.",
+      "Manrope structure with Instrument Serif italic emphasis.",
+      "Flat tonal panels and readable, compact controls.",
+      "Mathematical imagery with user-controlled motion."
+    ],
+    "rules": [
+      {
+        "name": "The Ground and Contrast Rule",
+        "body": "Keep paper and ink as the structural pair; use lime and terracotta to mark emphasis and interaction.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Use Manrope for structure and reading; use Instrument Serif italic for short, meaningful emphasis.",
+        "section": "typography"
+      },
+      {
+        "name": "The Reading First Rule",
+        "body": "Stack complex compositions on narrow screens and let scientific titles wrap naturally.",
+        "section": "layout"
+      },
+      {
+        "name": "The Motion Has Controls Rule",
+        "body": "Preserve pause controls, reduced-motion behavior and keyboard-visible focus when extending animated surfaces.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do use paper and ink to organize the page before adding accents.",
+      "Do keep long research titles readable and allow them to wrap.",
+      "Do use local fonts and inline SVG icons.",
+      "Do preserve visible focus and user control of motion."
+    ],
+    "donts": [
+      "Don't introduce shadows into the existing flat panel vocabulary.",
+      "Don't use Instrument Serif for navigation or long body copy.",
+      "Don't present illustrative diagrams as live measurements."
+    ]
+  }
+}
