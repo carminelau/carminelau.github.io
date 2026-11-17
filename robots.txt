@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://carminelau.github.io/sitemap.xml

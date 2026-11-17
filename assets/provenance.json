@@ -1,0 +1,25 @@
+{
+  "carmine-laudato.webp": {
+    "source": "https://adivo.it/team-carmine-laudato.png",
+    "sourcePage": "https://adivo.it/it/chi-siamo",
+    "retrieved": "2026-11-17",
+    "subject": "Carmine Laudato",
+    "processing": "WebP compression at 800x800; CSS crop and grayscale presentation. No generative alteration."
+  },
+  "sculpture.webp": {
+    "source": "Original mathematical geometry rendered by app.js",
+    "created": "2026-11-17",
+    "purpose": "Static fallback when JavaScript is unavailable",
+    "data": "No measured environmental data"
+  },
+  "social-preview.png": {
+    "source": "Screenshot of the website rendered in Chrome at 1200x630",
+    "created": "2026-11-17",
+    "processing": "Social composition uses the same fonts, palette, text and generated sculpture as the website."
+  },
+  "fonts": {
+    "Manrope": "https://github.com/google/fonts/tree/main/ofl/manrope",
+    "Instrument Serif": "https://github.com/google/fonts/tree/main/ofl/instrumentserif",
+    "license": "SIL Open Font License; full texts accompany the font files."
+  }
+}
