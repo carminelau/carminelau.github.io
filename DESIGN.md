@@ -1,4 +1,4 @@
-﻿---
+---
 name: Carmine Laudato
 description: A bold scientific atlas connecting data, code and matter.
 colors:
@@ -191,3 +191,8 @@ Research, practice and contact panels are square-cornered. Primary buttons have 
 - Don't use serif italics for the hero, contact statement, navigation or long body copy.
 - Don't present illustrative diagrams as live measurements.
 
+## Personal logo
+
+The CL monogram joins an orange rounded C to a warm-black L, with a yellow terminal as the connecting point. `assets/logo-carmine-laudato.svg` is the canonical flat vector. Header mark: 46px desktop, 40px mobile, 36px below 380px; footer: 40px. Keep the full mark and its internal spacing. The favicon uses the same geometry on warm paper, so the dark stroke stays visible in browser light and dark themes.
+
+`assets/logo-carmine-laudato-flat.png` is a transparent 512px export of the vector. The original imagegen concept is preserved separately in `assets/logo-carmine-laudato.png`; exact generation prompt and production notes are in `design/logo-generation.md`.

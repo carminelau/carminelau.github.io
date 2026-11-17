@@ -17,11 +17,39 @@
     "source": "Screenshot of the website rendered in Chrome at 1200x630",
     "created": "2026-11-17",
     "processing": "Social composition uses the same fonts, palette, text and generated sculpture as the website.",
-    "revision": "Saturated orange hero, yellow highlight and warm-black type, 1200x630."
+    "revision": "Updated with the CL monogram, retaining the orange/yellow portfolio composition."
   },
   "fonts": {
     "Manrope": "https://github.com/google/fonts/tree/main/ofl/manrope",
     "Instrument Serif": "https://github.com/google/fonts/tree/main/ofl/instrumentserif",
     "license": "SIL Open Font License; full texts accompany the font files."
+  },
+  "logo-carmine-laudato.png": {
+    "source": "Built-in image_gen",
+    "created": "2026-11-17",
+    "transparentBackground": true,
+    "promptFile": "design/logo-generation.md",
+    "processing": "Original AI-generated concept, unchanged."
+  },
+  "logo-carmine-laudato.svg": {
+    "source": "Authored geometric reconstruction of the generated CL concept",
+    "created": "2026-11-17",
+    "palette": [
+      "#ff6b26",
+      "#ffd43b",
+      "#231c17"
+    ],
+    "purpose": "Canonical scalable logo used by header and footer."
+  },
+  "favicon.svg": {
+    "source": "Canonical CL vector mark on warm-paper backing",
+    "created": "2026-11-17"
+  },
+  "logo-carmine-laudato-flat.png": {
+    "source": "Browser raster export of assets/logo-carmine-laudato.svg",
+    "created": "2026-11-17",
+    "dimensions": "512x512",
+    "transparentBackground": true,
+    "purpose": "Downloadable PNG matching the canonical vector."
   }
 }

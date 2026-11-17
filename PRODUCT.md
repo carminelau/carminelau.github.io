@@ -39,3 +39,5 @@ Use verifiable facts. Let work support positioning. Make exploration and contact
 
 ## Brand Commitments
 The user identifies with yellow or orange, explicitly rejects green, and asks for a much bolder personal site. Use saturated orange and yellow with warm black and warm paper across the page, artwork, icons and social previews. Preserve verified facts, bilingual content and existing interactions.
+
+The personal logo is an interlocking CL monogram in orange, warm black and yellow. Use the canonical SVG for the website and the backed favicon for browser tabs.

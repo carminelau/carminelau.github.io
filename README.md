@@ -54,3 +54,7 @@ Ritratto professionale di Carmine dal sito pubblico ADIVO; usato per il sito per
 ## Verifiche
 
 Controlli su sintassi JavaScript, file locali, ancore, ID HTML e link esterni. Verifica browser: italiano/inglese, scultura, pausa, movimento ridotto, copia email, privacy, menu mobile e chiusura con Escape. Layout controllato da 320 a 1440 px. Controllo axe per WCAG A/AA: nessuna violazione automatica rilevata; non equivale a una certificazione di accessibilità.
+
+## Logo personale
+
+Monogramma CL: [SVG vettoriale](assets/logo-carmine-laudato.svg), [PNG trasparente 512px](assets/logo-carmine-laudato-flat.png), [concept originale](assets/logo-carmine-laudato.png). La favicon condivide la stessa geometria. Prompt e processo sono documentati in [design/logo-generation.md](design/logo-generation.md).
